@@ -6,7 +6,6 @@ router.get("/", (req, res) => {
 
 router.post("/", (req, res) => {
   console.log(req.body);
-  console.log(JSON.parse(req.body));
   res.send({ msg: "success" });
 });
 
